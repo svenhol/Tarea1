@@ -17,7 +17,11 @@
     Statement st = con.createStatement();
     //ResultSet rs;
     if(pass.equals(rpass)){
-        st.executeUpdate("INSERT INTO USUARIO(RUT, CONTRASENA, NOMBRE, TIPO, COMISION) VALUES ('" + rut + "','" + pass + "','" + nombre + "', 'Vendedor', 0)");
+        int i = st.executeUpdate("INSERT INTO USUARIO(RUT, CONTRASENA, NOMBRE, TIPO, COMISION) VALUES ('" + rut + "','" + pass + "','" + nombre + "', 'Vendedor', 0)");
+        if (i>0) {
+            response.sendRedirect("administrator.jsp");
+        }  
+        //else alert.show("sometext");
     }
-    response.sendRedirect("administrator.jsp");
+    
 %>

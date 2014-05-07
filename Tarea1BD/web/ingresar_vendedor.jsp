@@ -26,7 +26,7 @@
                         <td><input type="text" name="nombre" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Rut<td>
+                        <td>Rut</td>
                         <td><input type="text" name="rut" value="" /></td>
                     </tr>
                     <tr>
@@ -39,6 +39,7 @@
                     </tr>
                     <tr>
                         <td><input type="submit" value="Submit" /></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td colspan="2">Already registered!! <a href="index.jsp">Login Here</a></td>
