@@ -38,11 +38,8 @@
                         <td><input type="password" name="rpass" value="" /></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Submit" /></td>
+                        <td><input type="submit" value="Ingresar" /></td>
                         <td></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Already registered!! <a href="index.jsp">Login Here</a></td>
                     </tr>
                 </tbody>
             </table>

@@ -24,6 +24,7 @@
         <form method="post" action="ingresar_cliente.jsp">
             <center>
                 <input type="submit" value="Ingresar Cliente" name="ingresar_cliente" />
+                <input type="hidden" value="seller" name="tipo_usuario" />
             </center>
         </form>
         <form method="post" action="ingresar_venta.jsp">

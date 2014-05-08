@@ -24,7 +24,7 @@
     <td>
         <form method="post" action="ingresar_vendedor.jsp">
             <center>
-                <input type="submit" value="Ingresar Vendedor" name="ingresar_vendedor" />
+                <input type="submit" value="Ingresar Vendedor" name="ingresar_vendedor" />                
             </center>
         </form>
     </td>
@@ -34,6 +34,7 @@
         <form method="post" action="ingresar_cliente.jsp">
             <center>
                 <input type="submit" value="Ingresar Cliente" name="ingresar_cliente" />
+                <input type="hidden" value="admin" name="tipo_usuario" />
             </center>
         </form>
     </td>

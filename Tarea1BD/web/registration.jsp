@@ -21,7 +21,13 @@
         if (i>0) {
             response.sendRedirect("administrator.jsp");
         }  
-        //else alert.show("sometext");
+        else {
+            //mostrar el error y redirigir de vuelta pidiendo otro rut
+        }
+    }
+    else {
+        //sorry, no se pasar parametros dentro de codigo java :c
+        //mostrar el error y redirigir de vuelta pidiendo las contraseñas de nuevo
     }
     
 %>
